@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+<<<<<<< HEAD
 h1{
   border-style: solid;
   border-width: medium;
@@ -11,4 +12,29 @@ h1{
   text-align: center;
   
   
+=======
+html
+{
+	background:url(../images/smoke.jpg) center fixed no-repeat;
+	background-size:100%;
+}
+
+#products ul
+{
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#products ul li
+{
+	font:Arial;
+	list-style:none;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:5%;
+	text-transform:uppercase;
+	color:white;
+	font-weight:bolder;
+>>>>>>> 8b51ca306b2ac45df8106f5e21b88c1757cf6e81
 }
