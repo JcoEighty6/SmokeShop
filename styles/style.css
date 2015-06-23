@@ -96,3 +96,9 @@ html
 	color:#CCCCCC;
 	background-color:#333;
 }
+
+div
+{
+	background-color: blue;
+	padding-bottom: 3px
+}
