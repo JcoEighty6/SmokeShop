@@ -1,37 +1,98 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1{
-  border-style: solid;
-  border-width: medium;
-  border-color: green;
-  background-color: blue;
-  Opacity: .75;<!--makes thingy fade out-->
-  filter: alpha(opacity=40);
-  text-align: center;
+h1
+{
+	font-family:Lobster;
+ 	/*border-style:solid;
+ 	border-width:medium;
+ 	border-color:#060;
+ 	background-color:#006;*/
+ 	Opacity: .9;<!--makes thingy fade out-->
+ 	filter: alpha(opacity=80);
+ 	text-align: center;
+ 	width:50%;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ 	letter-spacing:5px;
+	font-stretch:expanded;
+	zoom:3;
+	font-size:3.5em;
+	color:#333;
 }
 
 html
 {
-	background:url(../images/smoke.jpg) center fixed no-repeat;
+	/*background:url(../images/greySmoke.png) center fixed no-repeat;
+	background-size:100%;*/
+	background-color:#D2D2D2;
+	background:url(../images/glassware.png) no-repeat fixed;
 	background-size:100%;
+}
+
+#storeFront
+{
+	width:40%;
+	height:15%;
+	margin-left:30%;
+	margin-right:auto;
+	margin-bottom:2%;
+	margin-top:2%;
+}
+
+#products
+{
+	width:60%;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 #products ul
 {
 	float:left;
-	margin-left:10%;
-	margin-right:10%;
+	margin-left:15%;
+	margin-right:0;
 }
 
 #products ul li
 {
-	font:Arial;
+	font-family:Oswald;
 	list-style:none;
-	margin-left:20%;
-	margin-right:20%;
-	margin-bottom:5%;
+	margin-left:10%;
+	margin-right:0;
+	margin-bottom:5px;
 	text-transform:uppercase;
-	color:white;
+	color:#333;
 	font-weight:bolder;
+	text-align:center;
+	text-shadow: 1px 1px #CCCCCC;
+	letter-spacing:2px;
+}
+
+#title
+{
+	margin-top:5%;
+	margin-left:30%;
+	margin-right:auto;
+	text-shadow: 1px 1px #CCCCCC;
+}
+
+#products p
+{
+	display:inline-block;
+	margin:10px;
+	font-family:Oswald;
+	color:#333;
+	font-size:36px;
+}
+
+.shortLine
+{
+	width:10%;
+	height:5px;
+	display:inline-block;
+	color:#CCCCCC;
+	background-color:#333;
 }
