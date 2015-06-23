@@ -1,3 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
 
+html
+{
+	background:url(../images/smoke.jpg) center fixed no-repeat;
+	background-size:100%;
+}
+
+#products ul
+{
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#products ul li
+{
+	font:Arial;
+	list-style:none;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:5%;
+	text-transform:uppercase;
+	color:white;
+	font-weight:bolder;
+}
