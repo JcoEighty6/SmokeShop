@@ -35,3 +35,8 @@ html
 	color:white;
 	font-weight:bolder;
 }
+
+div{
+	background-color: blue;
+	padding-bottom: 3px
+}
