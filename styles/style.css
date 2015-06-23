@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-<<<<<<< HEAD
 h1{
   border-style: solid;
   border-width: medium;
@@ -10,9 +9,8 @@ h1{
   Opacity: .75;<!--makes thingy fade out-->
   filter: alpha(opacity=40);
   text-align: center;
-  
-  
-=======
+}
+
 html
 {
 	background:url(../images/smoke.jpg) center fixed no-repeat;
@@ -36,5 +34,4 @@ html
 	text-transform:uppercase;
 	color:white;
 	font-weight:bolder;
->>>>>>> 8b51ca306b2ac45df8106f5e21b88c1757cf6e81
 }
